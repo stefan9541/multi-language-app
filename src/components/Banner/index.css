@@ -1,0 +1,22 @@
+.banner-wrapper {
+  max-height: 320px;
+  position: relative;
+}
+
+.banner-img {
+  width: 100%;
+  max-height: inherit;
+  object-fit: cover;
+}
+
+.banner-header {
+  color: #fff;
+  font-size: 100px;
+  font-weight: 600;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  width: 100%;
+}

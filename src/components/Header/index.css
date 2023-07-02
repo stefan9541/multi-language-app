@@ -1,0 +1,24 @@
+.main-header {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.main-navigation {
+  display: flex;
+  padding: 18px;
+  background-color: #dfdfdf;
+  justify-content: space-between;
+}
+
+.link {
+  color: #343434;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-right: 55px;
+}
+
+.link.active {
+  color: #3b823e;
+}
