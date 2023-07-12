@@ -1,4 +1,3 @@
-import React from "react";
 import "./index.css";
 
 type Props = {
@@ -8,7 +7,7 @@ type Props = {
 export default function Banner({ title }: Props) {
   return (
     <div className="banner-wrapper">
-      <img className="banner-img" src="./banner-photo.jpg" alt="banner" />
+      <img className="banner-img" src="/banner-photo.jpg" alt="banner" />
       <h1 className="banner-header">{title}</h1>
     </div>
   );

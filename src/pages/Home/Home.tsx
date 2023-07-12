@@ -1,18 +1,19 @@
-import React from "react";
+import { useTranslation } from "react-i18next";
+
 import Banner from "../../components/Banner";
-import { NavLink } from "react-router-dom";
+import NavLink from "../../components/NavLink";
 
 type Props = {};
 
-export default function Home({}: Props) {
+export default function Home({ }: Props) {
+  const { t } = useTranslation();
+
   return (
     <div className="home-page-wrapper">
-      <Banner title='Plan a Plant' />
+      <Banner title={t("homeBanner")} />
       <section>
         <h2>
-          <NavLink to='/blog' >
-            Our Blog
-          </NavLink>
+          <NavLink label="ourBlog" to="/blog" />
         </h2>
       </section>
     </div>
