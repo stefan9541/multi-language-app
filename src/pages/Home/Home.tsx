@@ -13,7 +13,7 @@ export default function Home({ }: Props) {
       <Banner title={t("homeBanner")} />
       <section>
         <h2>
-          <NavLink label="ourBlog" to="/blog" />
+          <NavLink label="ourBlogLink" to="/blog" />
         </h2>
       </section>
     </div>
